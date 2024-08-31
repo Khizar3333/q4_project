@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "rag-app"
+version = "0.1.0"
+description = ""
+authors = ["Khizar"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain = "^0.2.12"
+python-dotenv = "^1.0.1"
+langchain-community = "^0.2.11"
+langchain-google-genai = "^1.0.8"
+ipykernel = "^6.29.5"
+bs4 = "^0.0.2"
+pypdf = "^4.3.1"
+langchain-text-splitters = "^0.2.2"
+faiss-cpu = "^1.8.0.post1"
+google-generativeai = "^0.7.2"
+pymupdf = "^1.24.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
