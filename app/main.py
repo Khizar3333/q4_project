@@ -98,7 +98,7 @@ def initialize_rag_chain():
 
     # Load and process documents
     try:
-        loader = TextLoader("docs/FAQs.txt")
+        loader = TextLoader("app/docs/FAQs.txt")
         docs = loader.load()
     except Exception as e:
         st.error(f"Error while loading file: {e}")
